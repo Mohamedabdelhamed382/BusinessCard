@@ -11,6 +11,9 @@
 		2187C7CA282C57480012E21D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187C7C9282C57480012E21D /* ContentView.swift */; };
 		2187C7CC282C574C0012E21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2187C7CB282C574C0012E21D /* Assets.xcassets */; };
 		2187C7CF282C574C0012E21D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2187C7CE282C574C0012E21D /* Preview Assets.xcassets */; };
+		2187C7D6282C58F70012E21D /* BusinessCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187C7D5282C58F70012E21D /* BusinessCardComponent.swift */; };
+		2187C7D8282C67850012E21D /* HeadlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187C7D7282C67850012E21D /* HeadlineView.swift */; };
+		2187C7DA282C6D6B0012E21D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187C7D9282C6D6B0012E21D /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2187C7C9282C57480012E21D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2187C7CB282C574C0012E21D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2187C7CE282C574C0012E21D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2187C7D5282C58F70012E21D /* BusinessCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardComponent.swift; sourceTree = "<group>"; };
+		2187C7D7282C67850012E21D /* HeadlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineView.swift; sourceTree = "<group>"; };
+		2187C7D9282C6D6B0012E21D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				2187C7C9282C57480012E21D /* ContentView.swift */,
 				2187C7CB282C574C0012E21D /* Assets.xcassets */,
 				2187C7CD282C574C0012E21D /* Preview Content */,
+				2187C7D5282C58F70012E21D /* BusinessCardComponent.swift */,
+				2187C7D7282C67850012E21D /* HeadlineView.swift */,
+				2187C7D9282C6D6B0012E21D /* UserModel.swift */,
 			);
 			path = BusinessCard;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			files = (
 				2187C7CA282C57480012E21D /* ContentView.swift in Sources */,
 				2187C7C8282C57480012E21D /* BusinessCardApp.swift in Sources */,
+				2187C7D8282C67850012E21D /* HeadlineView.swift in Sources */,
+				2187C7DA282C6D6B0012E21D /* UserModel.swift in Sources */,
+				2187C7D6282C58F70012E21D /* BusinessCardComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

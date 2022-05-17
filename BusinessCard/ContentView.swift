@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var users: [UserModel] = usersData
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        ScrollView(.vertical) {
+            
+            VStack {
+                ForEach(users) { item in
+                    BusinessCardComponent(user: item)
+                }
+            }//:HStack
+            .padding(20)
+            
+        }
     }
 }
 
